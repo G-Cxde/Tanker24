@@ -458,21 +458,6 @@ export const translations = {
 			reasoningText:
 				'Dieses Projekt ist ein weitergeführtes Projekt einer PSTA von mir und zwei anderen Studierenden aus dem SQS Kurs der Technischen Hochschule Rosenheim.'
 		},
-		pageTitle: 'Legal Notice according to §5 TMG',
-			contactHeading: 'Contact',
-			contactPhone: 'Phone: NaN',
-			contactEmail: 'E-Mail: NaN',
-			contactAdress: 'NaN',
-			contactRepresentativeHeading: 'Represented by',
-			contactRepresentative:
-				'NaN',
-			copyrightHeading: 'Copyright',
-			copyright: '© 2026 Tanker24. All rights reserved.',
-			dataPrivacyHeading: 'Data Privacy',
-			dataPrivacy: 'Further information on data processing and data protection can be found under ',
-			reasoningText:
-				'This Project is privatly continued Project of the Work of me and two other Students for an PSTA from the SQS Course of the University of Applied Sciences in Rosenheim.'
-		},
 		privacy: {
 			pageTitle: 'Datenschutzerklärung',
 			controllerHeading: 'Verantwortlicher',
