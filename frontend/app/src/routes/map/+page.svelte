@@ -191,7 +191,7 @@
 	}
 
 	function getTileUrl(isDark: boolean) {
-		return isDark ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png' : 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+		return isDark ? 'https://tile.openstreetmap.org/{z}/{x}/{y}.png' : 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 	}
 
 	function swapTileLayer(isDark: boolean) {
