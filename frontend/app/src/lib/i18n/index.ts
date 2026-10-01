@@ -176,26 +176,26 @@ export const translations = {
 		impressum: {
 			pageTitle: 'Legal Notice according to §5 TMG',
 			contactHeading: 'Contact',
-			contactPhone: 'Phone: +49 (0) 8031 805 - 0\nFax: +49 (0) 8031 805 - 2105',
-			contactEmail: 'E-Mail: info@th-rosenheim.de',
-			contactAdress: 'Technische Hochschule Rosenheim\nHochschulstraße 1\n83024 Rosenheim\nGermany',
+			contactPhone: 'Phone: NaN',
+			contactEmail: 'E-Mail: NaN',
+			contactAdress: 'NaN',
 			contactRepresentativeHeading: 'Represented by',
 			contactRepresentative:
-				'Rosenheim Technical University of Applied Sciences is a public corporation. It is legally represented by the President of the Rosenheim University of Applied Sciences, Professor Heinrich Köster.',
+				'NaN',
 			copyrightHeading: 'Copyright',
 			copyright: '© 2026 Tanker24. All rights reserved.',
 			dataPrivacyHeading: 'Data Privacy',
 			dataPrivacy: 'Further information on data processing and data protection can be found under ',
 			reasoningText:
-				'This Project is an PSTA from the SQS Course of the University of Applied Sciences in Rosenheim. Therefore any legal regards shall be communicated via the University'
+				'This Project is privatly continued Project of the Work of me and two other Students for an PSTA from the SQS Course of the University of Applied Sciences in Rosenheim.'
 		},
 		privacy: {
 			pageTitle: 'Privacy Policy',
 			controllerHeading: 'Controller',
-			controller: 'Technische Hochschule Rosenheim\nHochschulstraße 1\n83024 Rosenheim\nGermany\nPhone: +49 (0) 8031 805 - 0\nE-Mail: info@th-rosenheim.de',
+			controller: 'NaN',
 			collectionHeading: 'Collection of General Data',
 			collection:
-				'This website is operated by a team of students of the University of Applied Sciences in Rosenheim as part of a university project. When you visit our website, the browser used on your terminal device automatically sends information to the server of our website. This information is temporarily stored in log files. The following information is collected without your intervention and stored until automatic deletion: IP address of the requesting computer, date and time of access, name and URL of the retrieved file, website from which access is made (referrer URL), browser used and, if applicable, the operating system of your computer, as well as the name of your access provider.',
+				'This website is operated by me. When you visit this website, the browser used on your terminal device automatically sends information to the server of my website. This information is temporarily stored in log files. The following information is collected without your intervention and stored until automatic deletion: IP address of the requesting computer, date and time of access, name and URL of the retrieved file, website from which access is made (referrer URL), browser used and, if applicable, the operating system of your computer, as well as the name of your access provider.',
 			purposeHeading: 'Purpose of Processing',
 			purpose:
 				'The data mentioned will be processed by us for the following purposes: ensuring a smooth connection setup of the website, ensuring comfortable use of our website, evaluation of system security and stability, as well as for other administrative purposes.',
@@ -224,7 +224,7 @@ export const translations = {
 				'If the processing of your personal data is based on consent, you have the right to withdraw this consent at any time. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal.',
 			complaintHeading: 'Right to Lodge a Complaint',
 			complaint:
-				'You have the right to lodge a complaint with a supervisory authority if you believe that the processing of personal data concerning you infringes the GDPR. The competent supervisory authority in matters relating to data protection is the University of Applied Sciences in Rosenheim: info@th-rosenheim.de',
+				'I don`t really care...',
 			externalLinksHeading: 'External Links',
 			externalLinks:
 				'Our website contains links to external third-party websites. We have no influence on whether the operators of these websites comply with data protection regulations. We have no control over the data protection practices of third parties. We are not responsible for the content or privacy practices of linked external sites.',
@@ -446,26 +446,40 @@ export const translations = {
 		impressum: {
 			pageTitle: 'Angaben gemäß § 5 TMG',
 			contactHeading: 'Kontakt',
-			contactPhone: 'Telefon: +49 (0) 8031 805 - 0\nTelefax: +49 (0) 8031 805 - 2105',
-			contactEmail: 'E-Mail: info@th-rosenheim.de',
-			contactAdress: 'Technische Hochschule Rosenheim\nHochschulstraße 1\n83024 Rosenheim\nGermany',
-			contactRepresentativeHeading: 'Vertreten durch',
-			contactRepresentative:
-				'Die Technische Hochschule Rosenheim ist eine Körperschaft des öffentlichen Rechts. Sie wird gesetzlich vertreten durch den Präsidenten der Technischen Hochschule Rosenheim Professor Heinrich Köster.',
+			contactPhone: 'Phone: NaN',
+			contactEmail: 'E-Mail: NaN',
+			contactAdress: 'NaN',
+			contactRepresentativeHeading: 'Represented by',
+			contactRepresentative: 'NaN',
 			copyrightHeading: 'Urheberrecht',
 			copyright: '© 2026 Tanker24. Alle Rechte vorbehalten.',
 			dataPrivacyHeading: 'Datenschutz',
 			dataPrivacy: 'Weiterführende Informationen zur Datenverarbeitung und zum Datenschutz finden Sie unter ',
 			reasoningText:
-				'Dieses Projekt ist eine PSTA aus dem SQS Kurs der Technischen Hochschule Rosenheim. Jegliche rechtliche Belangen sollen daher über die Hochschule geklärt werden'
+				'Dieses Projekt ist ein weitergeführtes Projekt einer PSTA von mir und zwei anderen Studierenden aus dem SQS Kurs der Technischen Hochschule Rosenheim.'
+		},
+		pageTitle: 'Legal Notice according to §5 TMG',
+			contactHeading: 'Contact',
+			contactPhone: 'Phone: NaN',
+			contactEmail: 'E-Mail: NaN',
+			contactAdress: 'NaN',
+			contactRepresentativeHeading: 'Represented by',
+			contactRepresentative:
+				'NaN',
+			copyrightHeading: 'Copyright',
+			copyright: '© 2026 Tanker24. All rights reserved.',
+			dataPrivacyHeading: 'Data Privacy',
+			dataPrivacy: 'Further information on data processing and data protection can be found under ',
+			reasoningText:
+				'This Project is privatly continued Project of the Work of me and two other Students for an PSTA from the SQS Course of the University of Applied Sciences in Rosenheim.'
 		},
 		privacy: {
 			pageTitle: 'Datenschutzerklärung',
 			controllerHeading: 'Verantwortlicher',
-			controller: 'Technische Hochschule Rosenheim\nHochschulstraße 1\n83024 Rosenheim\nDeutschland\nTelefon: +49 (0) 8031 805 - 0\nE-Mail: info@th-rosenheim.de',
+			controller: 'NaN',
 			collectionHeading: 'Erhebung von allgemeinen Daten',
 			collection:
-				'Diese Website wird von einem Team von Studenten der Technischen Hochschule Rosenheim im Rahmen eines Hochschulprojekts betrieben. Wenn Sie unsere Website besuchen, werden automatisch Informationen an den Server unserer Website gesendet. Diese Informationen werden vorübergehend in Logdateien gespeichert. Folgende Daten werden ohne Ihr Zutun erfasst und bis zur automatischen Löschung gespeichert: IP-Adresse des anfordernden Rechners, Datum und Uhrzeit des Zugriffs, Name und URL der abgerufenen Datei, Website, von der aus der Zugriff erfolgt (Referrer-URL), verwendeter Browser und ggf. das Betriebssystem Ihres Rechners sowie der Name Ihres Access-Providers.',
+				'Wenn Sie diese Website besuchen, werden automatisch Informationen an den Server unserer Website gesendet. Diese Informationen werden vorübergehend in Logdateien gespeichert. Folgende Daten werden ohne Ihr Zutun erfasst und bis zur automatischen Löschung gespeichert: IP-Adresse des anfordernden Rechners, Datum und Uhrzeit des Zugriffs, Name und URL der abgerufenen Datei, Website, von der aus der Zugriff erfolgt (Referrer-URL), verwendeter Browser und ggf. das Betriebssystem Ihres Rechners sowie der Name Ihres Access-Providers.',
 			purposeHeading: 'Zweck der Verarbeitung',
 			purpose:
 				'Die oben genannten Daten werden von uns zu folgenden Zwecken verarbeitet: Gewährleistung eines reibungslosen Verbindungsaufbaus der Website, Gewährleistung einer komfortablen Nutzung unserer Website, Auswertung der Systemsicherheit und -stabilität sowie zu weiteren administrativen Zwecken.',
@@ -495,7 +509,7 @@ export const translations = {
 				'Beruht die Verarbeitung Ihrer personenbezogenen Daten auf einer Einwilligung, haben Sie das Recht, diese Einwilligung jederzeit zu widerrufen. Der Widerruf der Einwilligung berührt nicht die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung.',
 			complaintHeading: 'Beschwerderecht',
 			complaint:
-				'Sie haben das Recht, bei einer Aufsichtsbehörde Beschwerde einzulegen, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt. Die zuständige Aufsichtsbehörde in Datenschutzangelegenheiten ist die Technische Hochschule Rosenheim: info@th-rosenheim.de',
+				'Sie haben das Recht, bei einer Aufsichtsbehörde Beschwerde einzulegen, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt.',
 			externalLinksHeading: 'Externe Links',
 			externalLinks:
 				'Unsere Website enthält Links zu externen Drittwebsites. Wir haben keinen Einfluss darauf, ob deren Betreiber die Datenschutzbestimmungen einhalten. Wir haben keinen Einfluss auf die Datenschutzpraktiken Dritter. Für die Inhalte oder Datenschutzpraktiken verlinkter externer Seiten sind wir nicht verantwortlich.',
