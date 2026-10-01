@@ -2434,3 +2434,10 @@
 .leaflet-control-attribution a {
 	color: var(--accent-secondary) !important;
 }
+
+.dark-modern .leaflet-layer,
+.dark-modern .leaflet-control-zoom-in,
+.dark-modern .leaflet-control-zoom-out,
+.dark-modern .leaflet-control-attribution {
+	filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}

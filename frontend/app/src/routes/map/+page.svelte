@@ -190,14 +190,14 @@
 		if (map) map.zoomOut();
 	}
 
-	function getTileUrl(isDark: boolean) {
-		return isDark ? 'https://tile.openstreetmap.org/{z}/{x}/{y}.png' : 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+	function getTileUrl() {
+		return 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 	}
 
 	function swapTileLayer(isDark: boolean) {
 		if (!map || !tileLayer || !L) return;
 		map.removeLayer(tileLayer);
-		const url = getTileUrl(isDark);
+		const url = getTileUrl();
 		tileLayer = L.tileLayer(url, {
 			maxZoom: 19,
 			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -413,7 +413,7 @@
 
 		const fallbackUrl = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 
-		tileLayer = L.tileLayer(getTileUrl(isDarkTheme()), {
+		tileLayer = L.tileLayer(getTileUrl(), {
 			maxZoom: 19,
 			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 			errorTileUrl: fallbackUrl
